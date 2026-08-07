@@ -2,6 +2,8 @@
 
 Three end-to-end machine learning projects completed as part of the CodSoft ML Internship, restructured into a single, production-style repository with modular pipelines, configuration-driven training, saved models, evaluation artifacts, and one unified Streamlit dashboard.
 
+**🔗 Live demo:** [machine-learning-mini-projects.streamlit.app](https://machine-learning-mini-projects-g4h4xvxtmeqpqqepmmnp5m.streamlit.app/)
+
 | Project | Task Type | Best Model | Headline Metric |
 |---|---|---|---|
 | [Customer Churn Prediction](#1-customer-churn-prediction) | Binary classification | Random Forest | ROC-AUC 0.860 |
@@ -36,6 +38,10 @@ Each project is self-contained (its own data, config, and model) but shares a co
 ---
 
 ## Quick Start
+
+**Try it instantly, no setup required:** [→ Open the live app](https://machine-learning-mini-projects-g4h4xvxtmeqpqqepmmnp5m.streamlit.app/)
+
+Or run it locally:
 
 ```bash
 # 1. Install dependencies
@@ -135,6 +141,10 @@ This is the strongest-performing model in the repo, which is consistent with thi
 - Prediction with class probability / confidence
 - Interpretation notes (key signals behind a prediction)
 - Downloadable predictions
+
+**Live:** https://machine-learning-mini-projects-g4h4xvxtmeqpqqepmmnp5m.streamlit.app/
+
+Run locally instead:
 
 ```bash
 streamlit run app/streamlit_app.py
