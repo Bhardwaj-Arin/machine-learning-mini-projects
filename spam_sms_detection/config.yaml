@@ -1,0 +1,10 @@
+project_name: "Spam SMS Detection"
+random_state: 42
+data:
+  raw: "data/raw/spam.csv"
+  processed: "data/processed/processed.csv"
+training:
+  test_size: 0.20
+model:
+  name: "scikit-learn-pipeline"
+  path: "models/spam_sms_classifier.joblib"

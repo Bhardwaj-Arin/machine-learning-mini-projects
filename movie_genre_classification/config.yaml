@@ -1,0 +1,10 @@
+project_name: "Movie Genre Classification"
+random_state: 42
+data:
+  raw: "data/raw/train_data.txt"
+  processed: "data/processed/processed.csv"
+training:
+  test_size: 0.20
+model:
+  name: "scikit-learn-pipeline"
+  path: "models/movie_genre_classifier.joblib"
