@@ -3,7 +3,5 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
-*.pkl
-*.joblib
 outputs/*
 !outputs/.gitkeep
