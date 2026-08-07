@@ -1,0 +1,10 @@
+project_name: "Customer Churn"
+random_state: 42
+data:
+  raw: "data/raw/Churn_Modelling.csv"
+  processed: "data/processed/processed.csv"
+training:
+  test_size: 0.20
+model:
+  name: "scikit-learn-pipeline"
+  path: "models/customer_churn_best_model.joblib"
