@@ -33,7 +33,10 @@ pip install -r requirements.txt
 ```bash
 cd customer_churn
 python src/train.py
+<<<<<<< HEAD
 cd ..
+=======
+>>>>>>> d4efc887168de391e4c3fa141bfad0bf2d2cbdc6
 streamlit run app/streamlit_app.py
 ```
 
